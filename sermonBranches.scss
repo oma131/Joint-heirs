@@ -1,0 +1,703 @@
+@import "./variable.scss";
+@import "./style/bootstrap/bootstrap.scss";
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+// hea
+ header{
+    //  background-color: red;
+     background-image: url("./asset/branchh.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 50vmin;
+     width: 100%;
+     .navbar{
+          background-color:rgba(13, 26, 36, 0.37);
+         .container{
+             .left{
+                 margin-right: 1rem;
+             }
+         }
+     }
+ }
+//  sermon reading
+.sermon-reading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    text-align: center;
+    margin-top: 4rem;
+    @media screen and (min-width: 320px) {
+        font-size: 24px;
+        line-height: 0.4rem;
+    }
+    @media screen and (min-width: 768px) {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5.8rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+    }
+    @media screen and (min-width: 1024px) {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+    }
+}
+
+//  center
+  .center1{
+      display: flex;
+      .wrapper{
+         margin-top: 40px;
+         flex: 1;
+         display: flex;
+         justify-content: center;
+         .open-book{
+            background-color: $light_blue;
+         }
+         li{
+             list-style: none;
+         }
+      }
+
+  }
+// first row
+.row{
+justify-content: center;
+margin-top: 50px;
+padding-right: 1rem;
+justify-content: space-around;
+.left{
+    background-image: url("/asset/Rectangle\ 43.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .branches1{
+        margin-top: 3rem;
+        height: 80vmin;
+        text-align: left;
+        text-align: center;
+        
+    }
+}
+.right{
+    .light{
+        border: 1px solid #000000
+    }
+}
+}
+
+// second row
+.background-1{
+    background-image: url("/asset/Rectangle\ 44.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .background{
+    
+        .row{
+            justify-content: center;
+            margin-top: 60px;
+            padding-right: 1rem;
+            justify-content: space-around;
+            .left{
+                margin-top: 70px;
+                background-image: url("./asset/Rectangle\ 43.png");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                .branches1{
+                    margin-top: 3rem;
+                    height: 80vmin;
+                    text-align: left;
+                    text-align: center;
+                    
+                }
+                .center2{
+                    margin-top: 1rem;
+                    background-color: red;
+                }
+            }
+            .right{
+                margin-top: 100px;
+                .light{
+                    border: 1px solid #000000
+                }
+            }
+            .center2{
+                margin-top: 1rem;
+                flex: 1;
+            }
+            }
+    }
+    
+    
+}
+
+// center
+.center{
+    background-image: url("/asset/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: rgba(12, 10, 27, 0.79);
+    background: #0C0A1B 79%;
+    height: 40vmin;
+    left: 1px;
+    margin-top: 0rem;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .pr-3{
+            justify-content: center;
+            margin-right: 15px;
+        }
+       .copy{
+           display: flex;
+           align-items: end;
+           margin-top: 40px;
+            padding-left: 10px;
+
+           
+       }
+    }
+    .d-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li{
+            list-style: none;
+        }
+    }
+
+}
+
+
+// this branches styles
+
+// section
+section{
+    background-image: url("/asset/branches.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 50vmin;
+    width: 100%;
+    .navbar{
+        background-color: rgba(13, 26, 36, 0.37);
+    }
+    .bran{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 3.5rem;
+        text-align: center;
+        margin-top: 8%;
+        // background-color: red;
+        @media screen and (min-width: 320px) {
+            font-size: 30px;
+            line-height: 4px;
+        }
+        @media screen and (min-width: 768px) {
+            font-size: 4rem;
+            line-height: 1rem;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 7rem;
+            line-height: 2rem;
+        }
+    }
+}
+
+
+// grid
+
+
+.grid{
+    
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    .d-grid{
+        background-image: url("./asset/pastor\ kenneth.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 30.1rem;
+        width: 20rem;
+        .trap{
+            margin-top: 22rem;
+            // background-color: red;
+            width: 22.5rem;
+            height: 17.9rem;
+            margin-left: -6.2%;
+        }
+    }
+    .d-grid-1{
+        background-image: url("./asset/pastor\ john.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 30.1rem;
+        width: 20rem;
+        .trap-1{
+            margin-top: 22rem;
+            // background-color: red;
+            width: 22.5rem;
+            height: 17.9rem;
+            margin-left: -6.4%;
+        }
+    }
+    .d-grid-2{
+        background-image: url("./asset/pastor\ kenneth\ 2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 30.1rem;
+        width: 20rem;
+        .trap-2{
+            margin-top: 22rem;
+            // background-color: red;
+            width: 22.5rem;
+            height: 17.9rem;
+            margin-left: -6.3%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1360px){
+    .grid{
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+
+        
+    }
+}
+// overlap-in-grid
+.bg-overlap{
+    background-color: $light_blue;
+    height: 70vh;
+    margin-top: -16%;
+}
+// up-in-grid
+.up{
+    margin-top: -14rem;
+    color: $sec_white;
+}
+// center
+.center{
+    background-image: url("/asset/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: rgba(12, 10, 27, 0.79);
+    background: #0C0A1B 79%;
+    height: 40vmin;
+    left: 1px;
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .pr-3{
+            justify-content: center;
+            margin-right: 15px;
+        }
+       .copy{
+           display: flex;
+           align-items: end;
+           margin-top: 40px;
+            padding-left: 10px;
+
+           
+       }
+    }
+    .d-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        li{
+            list-style: none;
+        }
+    }
+
+}
+
+.lagos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.75rem;
+  }
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 3.75rem;
+    text-align: center;
+  }
+  //pastor class
+
+.pastor{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 7rem;
+}
+
+
+
+.con{
+    margin-left: -3rem;
+    margin-top: 2rem;
+    
+}
+.contain{
+    width: 10rem;
+}
+
+
+
+.hsix{
+    line-height: 20px;
+    font-size: 1rem;
+    margin-top: -1.6rem;
+}
+
+
+.lagos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 1rem;
+    width: 15rem;
+  }
+
+
+
+.branch-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    // top: 4rem;
+}
+
+@media screen and (min-width:992px){
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
